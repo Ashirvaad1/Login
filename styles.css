@@ -1,0 +1,49 @@
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #000000;
+	margin: 0;
+}
+textarea, button
+{
+	height: 32px;
+	font-size: 27px;
+	margin-right: 5px;
+	background-color: #171414;
+	color: white;
+	border: none;
+	border-radius: 7px;
+	transition: 0.5s;
+}
+#index
+{
+	width: 13px;
+}
+#ta
+{
+	width: 342px;
+}
+#copy
+{
+	height: 37px;
+	width: 148px;
+	cursor: pointer;
+}
+#index:hover
+{
+	background-color: red;
+	color: #171414;
+}
+#ta:hover
+{
+	background-color: lightyellow;
+	color: #171414;
+}
+button:hover
+{
+	background-color: lightgreen;
+	color: #171414;
+}
