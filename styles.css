@@ -1,11 +1,17 @@
 body
 {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 	background-color: #000000;
 	margin: 0;
+}
+.container
+{
+	display: flex;
+	margin-bottom: 10px;
 }
 textarea, button
 {
@@ -18,26 +24,27 @@ textarea, button
 	border-radius: 7px;
 	transition: 0.5s;
 }
-#index
+#iemail, #ipassword
 {
 	width: 13px;
+	text-align: center;
 }
-#ta
+#email, #password
 {
 	width: 342px;
 }
-#copy
+#cemail, #cpassword
 {
 	height: 37px;
-	width: 148px;
+	width: 74px;
 	cursor: pointer;
 }
-#index:hover
+#iemail:hover, #ipassword:hover
 {
 	background-color: red;
 	color: #171414;
 }
-#ta:hover
+#email:hover, #password:hover
 {
 	background-color: lightyellow;
 	color: #171414;
