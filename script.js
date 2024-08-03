@@ -5,8 +5,7 @@ document.getElementById('copy').addEventListener('click', function()
 	const index=document.getElementById('index');
 	index.value=(pos+2);
 	const ta=document.getElementById('ta');
-	ta.select();
-	document.execCommand('copy');
+	navigator.clipboard.writeText(ta.value)
 	pos++;
 	if(pos===6)
 	{
