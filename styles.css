@@ -1,50 +1,52 @@
 body
 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 	background-color: #000000;
 	margin: 0;
 }
-.container
+@media(max-width: 800px)
 {
-	display: flex;
-	margin-bottom: 10px;
+	body
+	{
+		flex-direction: column;
+	}
 }
 textarea, button
 {
-	height: 32px;
-	font-size: 27px;
+	height: 20px;
+	font-size: 17px;
 	margin-right: 5px;
 	background-color: #171414;
 	color: white;
 	border: none;
-	border-radius: 7px;
+	border-radius: 5px;
 	transition: 0.5s;
-}
-#iemail, #ipassword
-{
-	width: 13px;
 	text-align: center;
 }
-#email, #password
+#index
 {
-	width: 342px;
+	width: 8px;
 }
-#cemail, #cpassword
+#email
 {
-	height: 37px;
-	width: 74px;
+	width: 215px;
+}
+#copy
+{
+	height: 24px;
+	width: 52px;
 	cursor: pointer;
 }
-#iemail:hover, #ipassword:hover
+#index:hover
 {
 	background-color: red;
 	color: #171414;
 }
-#email:hover, #password:hover
+#email:hover
 {
 	background-color: lightyellow;
 	color: #171414;
