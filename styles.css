@@ -29,16 +29,16 @@ textarea, button
 }
 #index
 {
-	width: 32px;
+	width: 31px;
 }
 #email
 {
-	width: 257px;
+	width: 255px;
 }
 #copy
 {
 	height: 24px;
-	width: 51px;
+	width: 50px;
 	cursor: pointer;
 }
 #index:hover
