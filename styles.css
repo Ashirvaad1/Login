@@ -11,7 +11,7 @@ body
 textarea, button
 {
 	height: 50px;
-	font-size: 25px;
+	font-size: 12px;
 	margin-right: 5px;
 	background-color: #171414;
 	color: white;
@@ -30,7 +30,7 @@ textarea, button
 }
 #copy
 {
-	height: 22px;
+	height: 50px;
 	width: 50px;
 	cursor: pointer;
 }
