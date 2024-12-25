@@ -16,7 +16,6 @@ window.onload=function()
   {
     pos=0;
   }
-  document.getElementById('index').value=pos+1;
   document.getElementById('email').value=emails[pos];
   document.getElementById('copy').value="Copy(" + (pos+1) + ")";
 };
@@ -34,7 +33,6 @@ document.getElementById('copy').addEventListener('click', function()
                                                      check=1;
                                                      pos=(pos+1)%emails.length;
                                                      localStorage.setItem('pos', pos);
-                                                     document.getElementById('index').value=pos+1;
                                                      document.getElementById('email').value=emails[pos];
                                                      document.getElementById('copy').value="Copy(" + (pos+1) + ")";
                                                    }
