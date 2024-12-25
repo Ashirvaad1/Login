@@ -10,25 +10,25 @@ body
 #container
 {
 	display: flex;
-	gap: 10px;
 	align-items: center;
 }
 
 textarea, button
 {
 	padding: 2px;
-	font-size: 10px;
+	font-size: 13px;
 	background-color: #171414;
 	color: white;
 	border: none;
-	border-radius: 5px;
+	border-radius: 3px;
 	text-align: center;
 	transition: 0.3s;
-	resize: none;
 }
+
 button
 {
-	height: 50px;
+	height: 15px;
+	cursor: pointer;
 }
 
 #index
@@ -41,23 +41,20 @@ button
 	width: 150px;
 }
 
-#copy
+#index:hover
 {
-	cursor: pointer;
+	background-color: red;
+	color: black;
 }
 
-textarea:focus, button:focus
+#email:hover
 {
-	outline: none;
-}
-
-textarea:hover
-{
-	background-color: #2a2a2a;
+	background-color: yellow;
+	color: black;
 }
 
 button:hover
 {
-	background-color: lightgreen;
-	color: #171414;
+	background-color: green;
+	color: black;
 }
