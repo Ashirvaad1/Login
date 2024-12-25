@@ -9,7 +9,7 @@ body
 }
 textarea, button
 {
-	height: 30px;
+	height: 20px;
 	font-size: 15px;
 	margin-right: 5px;
 	background-color: #171414;
@@ -21,7 +21,7 @@ textarea, button
 }
 #index
 {
-	width: 15px;
+	width: 10px;
 }
 #email
 {
@@ -29,8 +29,8 @@ textarea, button
 }
 #copy
 {
-	height: 55px;
-	width: 50px;
+	height: 25px;
+	width: 45px;
 	cursor: pointer;
 }
 #index:hover
