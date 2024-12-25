@@ -1,7 +1,6 @@
-let emails=["akritimishra336@gmail.com", "ankitagond290@gmail.com", "ankitchaurasia8282@gmail.com", "chaturdwivedi678@gmail.com", "diyabaati07@gmail.com", "durgeshdubey4519@gmail.com", "jacobthomas9808@gmail.com", "jayasaini932@gmail.com", "jhatkadubey@gmail.com", "kalluseth127@gmail.com", "krishnakashyap6820@gmail.com", "laxman67884@gmail.com", "princeverma4736@gmail.com", "rajesh728829@gmail.com", "roshni55758@gmail.com", "samarpandey964@gmail.com", "sanjana58578@gmail.com", "uma685785@gmail.com", "uma738393@gmail.com", "vandanakumari28921@gmail.com", "yashchaurasia533@gmail.com", "yashipatel127@gmail.com", "zulfiqar66476@gmail.com"];
-let passwords=["{ Akriti@1}", "{ Ankita@1}", "{ Ankit@1}", "{ Chatur@1}", "{ Diya@1}", "{ Durgesh@1}", "{ Jacob@1}", "{ Jaya@1}", "{ Jhatka@1}", "{ Kallu@1}", "{ Krishna@1}", "{ Laxman@1}", "{ Prince@1}", "{ Rajesh@1}", "{ Roshni@1}", "{ Samar@1}", "{ Sanjana@1}", "{ Uma@1}", "{ Uma@1}", "{ Vandana@1}", "{ Yash@1}", "{ Yashi@1}", "{ Zulfiqar@1}"];
-let pos;
-let check=1;
+let emails=["bhupendrasrivastava99@gmail.com", "gunjantripathi143@gmail.com", "harmanpreetsingh9397@gmail.com", "vikalpverma92@gmail.com", "yusufkhan72829@gmail.com", "lavpandey809@gmail.com", "namanverma4544@gmail.com", "deepaliverma7583@gmail.com"];
+let passwords=["{ Bhupendra@1}", "{ Gunjan@1}", "{ Harmanpreet@1}", "{ Vikalp@1}", "{ Yusuf@1}", "{ Lav@1}", "{ Naman@1}", "{ Deepali@1}"];
+let pos, check=1;
 window.onload=function()
 {
 	if(localStorage.getItem('pos')!=null)
