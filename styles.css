@@ -1,60 +1,51 @@
 body
 {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	height: 100vh;
+	background-color: #000000;
 	margin: 0;
-	font-family: Arial, sans-serif;
 }
-
-#container
-{
-	display: flex;
-	align-items: center;
-}
-
 textarea, button
 {
-	padding: 2px;
-	font-size: 13px;
+	height: 50px;
+	font-size: 20px;
+	margin-right: 5px;
 	background-color: #171414;
 	color: white;
 	border: none;
-	border-radius: 3px;
+	border-radius: 5px;
+	transition: 0.5s;
 	text-align: center;
-	transition: 0.3s;
 }
-
-button
-{
-	height: 15px;
-	cursor: pointer;
-}
-
 #index
 {
-	width: 10px;
+	width: 40px;
 }
-
 #email
 {
-	width: 150px;
+	width: 300px;
 }
-
+#copy
+{
+	height: 55px;
+	width: 100px;
+	cursor: pointer;
+}
 #index:hover
 {
 	background-color: red;
-	color: black;
+	color: #171414;
 }
-
 #email:hover
 {
-	background-color: yellow;
-	color: black;
+	background-color: lightyellow;
+	color: #171414;
 }
-
 button:hover
 {
-	background-color: green;
-	color: black;
+	background-color: lightgreen;
+	color: #171414;
 }
