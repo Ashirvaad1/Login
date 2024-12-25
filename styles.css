@@ -27,6 +27,10 @@ textarea, button
 	transition: 0.3s;
 	resize: none;
 }
+button
+{
+	height: 50px;
+}
 
 textarea
 {
@@ -36,12 +40,12 @@ textarea
 
 #index
 {
-	width: 50px;
+	width: 20px;
 }
 
 #email
 {
-	width: 320px;
+	width: 100px;
 }
 
 #copy
