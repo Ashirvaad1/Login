@@ -17,7 +17,7 @@ window.onload=function()
     pos=0;
   }
   document.getElementById('email').value=emails[pos];
-  document.getElementById('copy').value="Copy(" + (pos+1) + ")";
+  document.getElementById('copy').textContent="Copy(" + (pos+1) + ")";
 };
 
 document.getElementById('copy').addEventListener('click', function()
@@ -34,6 +34,6 @@ document.getElementById('copy').addEventListener('click', function()
                                                      pos=(pos+1)%emails.length;
                                                      localStorage.setItem('pos', pos);
                                                      document.getElementById('email').value=emails[pos];
-                                                     document.getElementById('copy').value="Copy(" + (pos+1) + ")";
+                                                     document.getElementById('copy').textContent="Copy(" + (pos+1) + ")";
                                                    }
                                                  });
