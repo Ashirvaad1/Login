@@ -10,7 +10,7 @@ body
 textarea, button
 {
 	height: 19px;
-	font-size: 17px;
+	font-size: 16px;
 	margin-right: 2px;
 	background-color: #171414;
 	color: white;
@@ -19,24 +19,15 @@ textarea, button
 	transition: 0.5s;
 	text-align: center;
 }
-#index
-{
-	width: 9px;
-}
 #email
 {
-	width: 299px;
+	width: 295px;
 }
 #copy
 {
 	height: 25px;
-	width: 42px;
+	width: 50px;
 	cursor: pointer;
-}
-#index:hover
-{
-	background-color: red;
-	color: #171414;
 }
 #email:hover
 {
