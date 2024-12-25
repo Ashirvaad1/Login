@@ -3,7 +3,6 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
 	margin: 0;
 	font-family: Arial, sans-serif;
 }
@@ -32,20 +31,14 @@ button
 	height: 50px;
 }
 
-textarea
-{
-	height: auto;
-	overflow: hidden;
-}
-
 #index
 {
-	width: 20px;
+	width: 10px;
 }
 
 #email
 {
-	width: 100px;
+	width: 150px;
 }
 
 #copy
