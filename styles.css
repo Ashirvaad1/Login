@@ -1,49 +1,64 @@
 body
 {
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-color: #000000;
 	margin: 0;
+	font-family: Arial, sans-serif;
 }
+
+#container
+{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
 textarea, button
 {
-	height: 50px;
-	font-size: 20px;
-	margin-right: 5px;
+	padding: 10px;
+	font-size: 18px;
 	background-color: #171414;
 	color: white;
 	border: none;
 	border-radius: 5px;
-	transition: 0.5s;
 	text-align: center;
+	transition: 0.3s;
+	resize: none;
 }
+
+textarea
+{
+	height: auto;
+	overflow: hidden;
+}
+
 #index
 {
-	width: 40px;
+	width: 50px;
 }
+
 #email
 {
-	width: 300px;
+	width: 320px;
 }
+
 #copy
 {
-	height: 55px;
-	width: 100px;
 	cursor: pointer;
 }
-#index:hover
+
+textarea:focus, button:focus
 {
-	background-color: red;
-	color: #171414;
+	outline: none;
 }
-#email:hover
+
+textarea:hover
 {
-	background-color: lightyellow;
-	color: #171414;
+	background-color: #2a2a2a;
 }
+
 button:hover
 {
 	background-color: lightgreen;
