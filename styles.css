@@ -21,7 +21,7 @@ textarea, button
 }
 #index
 {
-	width: 40px;
+	width: 30px;
 }
 #email
 {
@@ -29,8 +29,8 @@ textarea, button
 }
 #copy
 {
-	height: 55px;
-	width: 100px;
+	height: 40px;
+	width: 80px;
 	cursor: pointer;
 }
 #index:hover
