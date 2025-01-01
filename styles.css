@@ -27,6 +27,7 @@ textarea, button
 	border-radius: 5px;
 	transition: 0.7s;
 	text-align: center;
+	margin: 0;
 }
 #email:hover
 {
