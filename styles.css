@@ -6,27 +6,26 @@ body
 	align-items: center;
 	height: 90vh;
 }
-textarea, button
+textarea
 {
 	height: 18px;
+	width: 295px;
 	margin-right: 1px;
+}
+button
+{
+	height: 24px;
+	width: 60px;
+}
+textarea, button
+{
 	font-size: 15px;
 	background-color: #171414;
 	color: white;
 	border: none;
 	border-radius: 5px;
-	transition: 0.5s;
+	transition: 0.7s;
 	text-align: center;
-}
-#email
-{
-	width: 295px;
-}
-#copy
-{
-	height: 24px;
-	width: 60px;
-	cursor: pointer;
 }
 #email:hover
 {
