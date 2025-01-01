@@ -4,7 +4,7 @@ body
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	height: 85vh;
+	height: 80vh;
 	margin: 2px;
 }
 textarea
@@ -20,7 +20,7 @@ button
 }
 textarea, button
 {
-	font-size: 16px;
+	font-size: 18px;
 	background-color: #171414;
 	color: white;
 	border: none;
