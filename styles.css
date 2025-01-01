@@ -4,7 +4,7 @@ body
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	height: 86vh;
+	height: 85vh;
 	margin: 2px;
 }
 textarea
