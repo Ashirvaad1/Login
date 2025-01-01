@@ -9,13 +9,13 @@ body
 }
 textarea
 {
-	height: 19px;
+	height: 21px;
 	width: 295px;
 	margin-right: 1px;
 }
 button
 {
-	height: 25px;
+	height: 27px;
 	width: 60px;
 }
 textarea, button
