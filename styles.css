@@ -9,18 +9,18 @@ body
 }
 textarea
 {
-	height: 18px;
+	height: 19px;
 	width: 295px;
 	margin-right: 1px;
 }
 button
 {
-	height: 24px;
+	height: 25px;
 	width: 60px;
 }
 textarea, button
 {
-	font-size: 15px;
+	font-size: 16px;
 	background-color: #171414;
 	color: white;
 	border: none;
